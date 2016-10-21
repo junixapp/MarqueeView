@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MarqueeView</string>
+    <string name="marquee_str">Toggle(第2个)</string>
+</resources>
