@@ -2,7 +2,7 @@
 垂直跑马灯效果。
 
 # Screenshot
-![](http://i.imgur.com/qeFv5z8.gif)
+![](http://i.imgur.com/iXIFktz.gif)
 
 # Usage
 		
