@@ -108,6 +108,7 @@ public class MarqueeView extends FrameLayout {
                 ViewCompat.setTranslationY(child2,child2.getHeight());
                 child1.setText(marqueeData.get(currentPosition));
                 child2.setText(marqueeData.get(currentPosition+1));
+                currentPosition += 1;
             }
         });
     }
@@ -188,7 +189,10 @@ public class MarqueeView extends FrameLayout {
 
                 @Override
                 public void onAnimationEnd(Animator animation) {
-                    currentPosition = (currentPosition+1)%marqueeData.size();
+                    currentPosition += 1;
+                    if(currentPosition>(marqueeData.size()-1)){
+                        currentPosition = 0;
+                    }
 
                     TextView moveView = (child1.getTranslationY()==-getHeight()?child1:child2);
                     moveView.setTranslationY(getHeight()*2);
@@ -200,7 +204,7 @@ public class MarqueeView extends FrameLayout {
                     isRunningAnim = false;
                 }
             });
-            animator.setDuration(getHeight()*8)
+            animator.setDuration(getHeight()*6)
                     .setInterpolator(new LinearInterpolator());
             animator.start();
 
