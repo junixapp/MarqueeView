@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MarqueeView.iml" filepath="$PROJECT_DIR$/MarqueeView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/marqueeview/marqueeview.iml" filepath="$PROJECT_DIR$/marqueeview/marqueeview.iml" />
+      <module fileurl="file://F:\as_workspace\MarqueeView\MarqueeView.iml" filepath="F:\as_workspace\MarqueeView\MarqueeView.iml" />
+      <module fileurl="file://F:\as_workspace\MarqueeView\demo\demo.iml" filepath="F:\as_workspace\MarqueeView\demo\demo.iml" />
+      <module fileurl="file://F:\as_workspace\MarqueeView\marqueeview\marqueeview.iml" filepath="F:\as_workspace\MarqueeView\marqueeview\marqueeview.iml" />
     </modules>
   </component>
 </project>
