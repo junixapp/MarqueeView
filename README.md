@@ -27,7 +27,7 @@
 - step2, Add the dependency
 
 			dependencies {
-			        compile 'com.github.li-xiaojun:MarqueeView:1.0'
+			        compile 'com.github.li-xiaojun:MarqueeView:latest'
 			}
 
 
