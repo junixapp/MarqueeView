@@ -10,6 +10,8 @@
 	marqueeView.setMarqueeData(data);
 	//切换暂停和滚动
 	marqueeView.toggleMarquee();
+	// 设置切换的时间间隔，默认是2000
+	marqueeView.setInterval(3000);
 
 # Depedency [![](https://jitpack.io/v/li-xiaojun/MarqueeView.svg)](https://jitpack.io/#li-xiaojun/MarqueeView)
 
